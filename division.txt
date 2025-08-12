@@ -1,3 +1,13 @@
-a = int(input("Enter First Number :))
-b = int(input("Enter Second Number :))
-print(a/b)
+public class Division {
+    public static void main(String[] args) {
+        int num1 = 20;
+        int num2 = 4;
+
+        if (num2 != 0) {
+            int result = num1 / num2;
+            System.out.println("The result is: " + result);
+        } else {
+            System.out.println("Cannot divide by zero.");
+        }
+    }
+}
